@@ -3,6 +3,7 @@
 // use App\Services\UserService;
 use App\Providers\UserServiceProvider;
 use Illuminate\Support\Facades\Facade;
+use App\Providers\TodoListServiceProvider;
 
 return [
 
@@ -197,6 +198,8 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
         UserServiceProvider::class,
+        // TodoListServiceProvider::class,
+        TodolistServiceProvider::class,
 
     ],
 
